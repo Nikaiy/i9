@@ -1,0 +1,312 @@
+@media(min-width:320px)  and (max-width: 480px) {
+    .container {
+        margin: auto;
+        height: auto;
+        max-width: 80%;
+    }
+    
+
+    /* Start Header */
+    header {
+        height: 50px;
+        background-image: var(--main-bg-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-logo img {
+        width: 45px;
+    }
+
+    /* Start Banner */
+    .banner {
+        margin: 5px 0px 5px 0px;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .slider {
+        display: flex;
+        transition: transform 1s ease;
+        height: 300px;
+    }
+
+    /* Start Sobre */
+    .sobre {
+        width: 100%;
+        height: auto;
+        background-image: var(--main-bg-color);
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sobre .container {
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .sobre-main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .sobre-main h1 {
+        text-align: center;
+        color: var(--main-color);
+        font-size: 2.3rem; /* 32px */
+        font-weight: 700;
+    }
+
+    .sobre-elementos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .sobre-elementos--img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .sobre-elementos--img img {
+        width: 270px;
+        height: 270px;
+        border-radius: 50px;
+    }
+
+    .sobre-elementos--text {
+        padding: 13px;
+        width: auto ;
+        height: auto; 
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        gap: 10px;
+        font-weight: 400;
+        text-align: justify;
+        color: #dad7ddbe;
+    }
+    
+
+    /* Start Services*/
+
+    .service {
+        width: 100%;
+        min-height: auto; 
+        padding: 50px;
+    }
+
+    .service-itens {
+        margin-top: 40px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card {
+        width: 260px;
+        margin-top: 0px;
+        padding: 20px;
+        box-shadow: 0 4px 30px rgba(109, 22, 180, 0.210);
+        border: 1px solid rgba(99, 10, 107, 0.08);
+    }
+
+
+    /* Start Contato*/
+
+    .contato {
+        padding: 35px;
+        margin-bottom: 5px;
+    }
+
+    .contato--main {
+        gap: 20px;
+    }
+    .contato--main h1 {
+        margin-bottom: 0px;
+    }
+    .contato-cards {
+        gap: 15px;
+    }
+
+    .contato-card {
+        width: 50px;
+        height: 50px;
+    }
+    .contato-card img {
+        width: 25px;
+    }
+
+}
+
+
+@media(min-width:320px)  and (max-width: 480px) {
+    .container {
+        margin: auto;
+        height: auto;
+        max-width: 80%;
+    }
+    
+
+    /* Start Header */
+    header {
+        height: 50px;
+        background-image: var(--main-bg-color);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-logo img {
+        width: 45px;
+    }
+
+    /* Start Banner */
+    .banner {
+        margin: 5px 0px 5px 0px;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .slider {
+        display: flex;
+        transition: transform 1s ease;
+        height: 300px;
+    }
+
+    /* Start Sobre */
+    .sobre {
+        width: 100%;
+        height: auto;
+        background-image: var(--main-bg-color);
+        margin-top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sobre .container {
+        margin: auto;
+        max-width: 100%;
+    }
+
+    .sobre-main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .sobre-main h1 {
+        text-align: center;
+        color: var(--main-color);
+        font-size: 2.3rem; /* 32px */
+        font-weight: 700;
+    }
+
+    .sobre-elementos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        width: 100%;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .sobre-elementos--img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .sobre-elementos--img img {
+        width: 270px;
+        height: 270px;
+        border-radius: 50px;
+    }
+
+    .sobre-elementos--text {
+        padding: 13px;
+        width: auto ;
+        height: auto; 
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        flex-direction: column;
+        gap: 10px;
+        font-weight: 400;
+        text-align: justify;
+        color: #dad7ddbe;
+    }
+    
+
+    /* Start Services*/
+
+    .service {
+        width: 100%;
+        min-height: auto; 
+        padding: 50px;
+    }
+
+    .service-itens {
+        margin-top: 40px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .card {
+        width: 260px;
+        margin-top: 0px;
+        padding: 20px;
+        box-shadow: 0 4px 30px rgba(109, 22, 180, 0.210);
+        border: 1px solid rgba(99, 10, 107, 0.08);
+    }
+
+
+    /* Start Contato*/
+
+    .contato {
+        padding: 35px;
+        margin-bottom: 5px;
+    }
+
+    .contato--main {
+        gap: 20px;
+    }
+    .contato--main h1 {
+        margin-bottom: 0px;
+    }
+    .contato-cards {
+        gap: 15px;
+    }
+
+    .contato-card {
+        width: 50px;
+        height: 50px;
+    }
+    .contato-card img {
+        width: 25px;
+    }
+
+}
